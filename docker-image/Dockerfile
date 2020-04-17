@@ -9,6 +9,7 @@ USER root
 RUN set -ex \
 	&& apk add --no-cache \
 	  avahi-compat-libdns_sd \
+	  avahi-compat-libdns_sd-devel \	  
 	  dbus \
 	  libcap \
 	  python \
